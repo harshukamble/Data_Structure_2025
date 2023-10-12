@@ -15,7 +15,7 @@ def hashmap(arr1,arr2):
                 hash[i]-=1
         return True
 arr1=[1, 7, 1]
-arr2=[7, 7, 1]
+arr2=[1, 1, 1,]
 result=hashmap(arr1,arr2)
 if result==True:
     print("same arry!!!")
