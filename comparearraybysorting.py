@@ -1,4 +1,6 @@
 def comparearray(arr1,arr2):
+    arr1.sort()
+    arr2.sort()
     if len(arr1)!=len(arr2):
         return False
     else:
